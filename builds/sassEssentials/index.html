@@ -18,12 +18,13 @@
         <li><a href="#lists">Lists</a></li>
         <li><a href="#media">Media</a></li>
         <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<section class="background jumbotron" id="jumbotron">
+<section class="jumbotron" id="jumbotron">
   <div class="container">
     <h1>Jumbotron</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt cum doloribus asperiores rem beatae commodi excepturi incidunt dicta illum expedita, necessitatibus consequatur obcaecati nobis optio dolorum accusantium, ad dolor sed.</p>
@@ -52,9 +53,9 @@
 <section id="buttons">
   <div class="container">
     <h1>Buttons</h1>
-    <button class="btn-default">Default</button>
-    <button class="btn-cool">Cool</button>
-    <button class="btn-hot">Hot</button>
+    <button>Default</button>
+    <button>Cool</button>
+    <button>Hot</button>
   </div><!-- container -->
 </section>
 
@@ -183,6 +184,41 @@
     </table>
   </div>
 </section>
+
+<section id="forms">
+  <div class="container">
+    <h1>Forms</h1>
+    <form>
+      <div class="form-group">
+        <label for="inputName">Name</label>
+        <input class="form-control" type="text" id="inputName" 
+          placeholder="Name">
+      </div>
+    <div class="form-group">
+      <label for="inputEmail">Email</label>
+      <input class="form-control" type="email" id="inputEmail" 
+        placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="selectSite">Site</label>
+      <select class="form-control" id="selectSite">
+        <option>Choose...</option>
+        <option>lynda.com</option>
+        <option>raybo.org</option>
+        <option>iviewsource.com</option>
+      </select>  
+    </div>
+    <div class="checkbox">
+      <label><input id="inputAddList" type="checkbox">Add me to e-mail blast</label>
+    </div>
+    <div class="form-group">
+      <label for="inputComments">Comments</label>
+      <textarea class="form-control" id="inputComments"></textarea> 
+    </div>
+    <input class="btn btn-default pull-right" type="submit" value="submit">
+    </form>
+  </div>
+</section>
         
 <footer>
   <div class="container">
@@ -195,6 +231,7 @@
         <li><a href="#lists">Lists</a></li>
         <li><a href="#media">Media</a></li>
         <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
       </ul>
     </nav>
   </div>
